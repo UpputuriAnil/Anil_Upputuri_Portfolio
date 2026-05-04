@@ -1,0 +1,16 @@
+{
+  "name": "anil-portfolio",
+  "version": "1.0.0",
+  "description": "Professional portfolio website for Upputuri Anil",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve . -p 3000"
+  },
+  "keywords": ["portfolio", "web-development", "full-stack", "resume"],
+  "author": "Upputuri Anil",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
