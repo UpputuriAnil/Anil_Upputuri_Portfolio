@@ -369,8 +369,8 @@ document.querySelectorAll('img').forEach(img => {
 document.querySelector('.btn-resume').addEventListener('click', function(e) {
     e.preventDefault();
     const link = document.createElement('a');
-    link.href = 'Anil_Upputuri_Resume.pdf';
-    link.download = 'Anil_Upputuri_Resume.pdf';
+    link.href = 'anil_resume.pdf';
+    link.download = 'anil_resume.pdf';
     link.style.display = 'none';
     document.body.appendChild(link);
     link.click();
