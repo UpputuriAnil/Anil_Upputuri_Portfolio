@@ -123,7 +123,7 @@ if (contactForm) {
         }
         
         // Create mailto link
-        const mailtoLink = `mailto:anilupputuri@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
+        const mailtoLink = `mailto:anilupputuri00@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
         
         // Open email client
         window.location.href = mailtoLink;
