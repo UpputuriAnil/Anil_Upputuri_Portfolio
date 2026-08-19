@@ -1087,3 +1087,65 @@ html {
 ::-webkit-scrollbar-thumb:hover {
     background: #4cd9b8;
 }
+
+/* Active Nav Link */
+.nav-link.active {
+    color: #64ffda !important;
+}
+
+.nav-link.active::after {
+    width: 100% !important;
+}
+
+/* Mobile Toggle Hamburger Animation */
+.nav-toggle.active .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.nav-toggle.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.nav-toggle.active .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* Form Status Notifications */
+.form-status {
+    margin-top: 1rem;
+    padding: 0.8rem 1rem;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    display: none;
+    transition: all 0.3s ease;
+}
+
+.form-status.show {
+    display: block;
+    animation: fadeIn 0.3s ease-out;
+}
+
+.form-status.success {
+    background: rgba(100, 255, 218, 0.15);
+    color: #64ffda;
+    border: 1px solid rgba(100, 255, 218, 0.4);
+}
+
+.form-status.error {
+    background: rgba(255, 107, 107, 0.15);
+    color: #ff6b6b;
+    border: 1px solid rgba(255, 107, 107, 0.4);
+}
+
+.form-status.loading {
+    background: rgba(255, 255, 255, 0.05);
+    color: #8892b0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none !important;
+}
