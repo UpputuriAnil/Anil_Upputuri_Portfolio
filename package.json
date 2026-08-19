@@ -7,7 +7,12 @@
     "start": "npx serve .",
     "dev": "npx serve . -p 3000"
   },
-  "keywords": ["portfolio", "web-development", "full-stack", "resume"],
+  "keywords": [
+    "portfolio",
+    "web-development",
+    "full-stack",
+    "resume"
+  ],
   "author": "Upputuri Anil",
   "license": "MIT",
   "devDependencies": {
