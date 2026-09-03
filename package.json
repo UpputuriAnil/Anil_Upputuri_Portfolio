@@ -8,14 +8,7 @@
     "dev": "npx serve . -p 3000"
   },
   "keywords": [
-    "portfolio",
-    "web-development",
-    "full-stack",
-    "resume"
-  ],
-  "author": "Upputuri Anil",
-  "license": "MIT",
-  "devDependencies": {
-    "serve": "^14.2.1"
+    "portfolio", "web-develo
+  pment", "full-stack", "resume"],"author": "Upputuri Anil","license": "MIT","devDependencies": {"serve": "^14.2.1"
   }
 }
