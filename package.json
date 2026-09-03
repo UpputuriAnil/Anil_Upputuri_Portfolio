@@ -4,7 +4,6 @@
   "description": "Professional portfolio website for Upputuri Anil",
   "main": "index.html",
   "scripts": {
-    "build": "echo Static deployment",
     "start": "npx serve .",
     "dev": "npx serve . -p 3000"
   },
