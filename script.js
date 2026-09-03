@@ -60,9 +60,7 @@ const typingText = document.querySelector('.typing-text');
 if (typingText) {
     const roles = [
         "Full Stack Developer",
-        "Java & Spring Boot Engineer",
-        "React & MERN Stack Developer",
-        "AI & ML Enthusiast"
+        "Java & Spring Boot Engineer"
     ];
     let roleIndex = 0;
     let charIndex = 0;
